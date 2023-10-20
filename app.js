@@ -125,10 +125,4 @@
 //   console.log("The number is not a prime number.");
 // }
 
-//
 
-function CalculatMostRepeatableWord(value) {
-
-}
-
-CalculatMostRepeatableWord("abcdeabcdabcab");
