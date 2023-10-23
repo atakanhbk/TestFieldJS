@@ -125,3 +125,16 @@
 //   console.log("The number is not a prime number.");
 // }    
 
+function FindMissingNumber() {
+ 
+    const array = [0,1,2,3,4,5,7,8,9,10];
+
+    for (let i = 0; i < array.length; i++) {
+       if(array[i] !== i){
+        return i;
+       }
+        
+    }
+}
+
+console.log(FindMissingNumber());   
