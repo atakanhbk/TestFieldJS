@@ -13,6 +13,8 @@
 
 // Factoriel();
 
+// ---------------------------*---------------------------------------
+
 // Reverse A String
 
 // const result = function reverseWords() {
@@ -24,6 +26,8 @@
 // };
 
 // console.log(result());
+
+// ---------------------------*---------------------------------------
 
 // Find Longest Word
 
@@ -47,6 +51,8 @@
 
 // FindLongestWord();
 
+// ---------------------------*---------------------------------------
+
 //Find Palindromes
 
 // function IsPalindromes() {
@@ -66,6 +72,8 @@
 // }
 
 // IsPalindromes();
+
+// ---------------------------*---------------------------------------
 
 //Seperate Unique and Non Unique Words
 
@@ -91,6 +99,8 @@
 // }
 
 // IsWordUnique();
+
+// ---------------------------*---------------------------------------
 
 // program to check if a number is prime or not
 
@@ -125,6 +135,7 @@
 // else {
 //   console.log("The number is not a prime number.");
 // }
+// ---------------------------*---------------------------------------
 
 // function FindMissingNumber() {
 
@@ -140,14 +151,15 @@
 
 // console.log(FindMissingNumber());
 
-function FindRepeatNumber() {
-  const array = [0, 1, 2, 3, 4, 5, 6, 7, 7, 8, 9];
+// ---------------------------*---------------------------------------
+// function FindRepeatNumber() {
+//   const array = [0, 1, 2, 3, 4, 5, 6, 7, 7, 8, 9];
 
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] === array[i + 1]) {
-      return i;
-    }
-  }
-}
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] === array[i + 1]) {
+//       return i;
+//     }
+//   }
+// }
 
-console.log(FindRepeatNumber());
+// console.log(FindRepeatNumber());
