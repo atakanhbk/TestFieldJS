@@ -123,6 +123,5 @@
 // // check if number is less than 1
 // else {
 //   console.log("The number is not a prime number.");
-// }
-
+// }    
 
