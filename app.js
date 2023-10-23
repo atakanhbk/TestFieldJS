@@ -116,6 +116,7 @@
 //   if (isPrime) {
 //     console.log(`${number} is a prime number`);
 //   } else {
+
 //     console.log(`${number} is a not prime number`);
 //   }
 // }
@@ -123,18 +124,30 @@
 // // check if number is less than 1
 // else {
 //   console.log("The number is not a prime number.");
-// }    
+// }
 
-function FindMissingNumber() {
- 
-    const array = [0,1,2,3,4,5,7,8,9,10];
+// function FindMissingNumber() {
 
-    for (let i = 0; i < array.length; i++) {
-       if(array[i] !== i){
-        return i;
-       }
-        
+//     const array = [0,1,2,3,4,5,7,8,9,10];
+
+//     for (let i = 0; i < array.length; i++) {
+//        if(array[i] !== i){
+//         return i;
+//        }
+
+//     }
+// }
+
+// console.log(FindMissingNumber());
+
+function FindRepeatNumber() {
+  const array = [0, 1, 2, 3, 4, 5, 6, 7, 7, 8, 9];
+
+  for (let i = 0; i < array.length; i++) {
+    if (array[i] === array[i + 1]) {
+      return i;
     }
+  }
 }
 
-console.log(FindMissingNumber());   
+console.log(FindRepeatNumber());
