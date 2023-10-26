@@ -165,23 +165,26 @@
 // console.log(FindRepeatNumber());
 
 // ---------------------------*---------------------------------------
-function FindMaxAndMin() {
-  const array = [6, 2, 3, 5, 8, 45, 100, 154, 26, 48,268 , -1];
+// function FindMaxAndMin() {
+//   const array = [6, 2, 3, 5, 8, 45, 100, 154, 26, 48,268 , -1];
 
-  let minNumber = array[0];
-  let maxNumber = array[0];
+//   let minNumber = array[0];
+//   let maxNumber = array[0];
 
-  for (let i = 0; i < array.length; i++) {
-    if(array[i] < minNumber){
-     minNumber = array[i];   
-    }
+//   for (let i = 0; i < array.length; i++) {
+//     if(array[i] < minNumber){
+//      minNumber = array[i];   
+//     }
 
-    if(array[i] > maxNumber){
-        maxNumber = array[i];
-    }
-  }
+//     if(array[i] > maxNumber){
+//         maxNumber = array[i];
+//     }
+//   }
 
-  console.log("Minimum Number = " + minNumber + " Maksimum Number = " + maxNumber);
-}
+//   console.log("Minimum Number = " + minNumber + " Maksimum Number = " + maxNumber);
+// }
 
-FindMaxAndMin();
+// FindMaxAndMin();
+
+
+
